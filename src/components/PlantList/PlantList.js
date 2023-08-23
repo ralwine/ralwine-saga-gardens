@@ -8,7 +8,7 @@ function PlantList() {
     const reduxState = useSelector(store => store);
 
     useEffect(() => {
-        console.log('component did mount');
+        console.log('component did mount');// this is where the frist console log is
         // dispatch an action to request the plantList from the API
     }, []); 
 
